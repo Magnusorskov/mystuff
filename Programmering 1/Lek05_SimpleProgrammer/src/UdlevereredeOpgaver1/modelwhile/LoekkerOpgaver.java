@@ -77,8 +77,8 @@ public class LoekkerOpgaver {
             if (a % 2 != 0) {
                 sum = sum + (a % 10);
             }
-                a = a / 10;
-            }
+            a = a / 10;
+        }
         return sum;
     }
 }

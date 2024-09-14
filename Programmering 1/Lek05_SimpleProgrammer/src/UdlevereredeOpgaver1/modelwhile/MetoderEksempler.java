@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class MetoderEksempler {
 
 
-    public static int sumDigits(int tal){
-        int digit1 = tal%10;
-        tal = tal/10;
+    public static int sumDigits(int tal) {
+        int digit1 = tal % 10;
+        tal = tal / 10;
 
-        int digit2 = tal%10;
-        tal = tal/10;
+        int digit2 = tal % 10;
+        tal = tal / 10;
 
-        int digit3 = tal%10;
+        int digit3 = tal % 10;
         return digit1 + digit2 + digit3;
     }
 

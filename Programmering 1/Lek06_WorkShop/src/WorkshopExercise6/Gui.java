@@ -1,4 +1,4 @@
-package WorkshopExercise4;
+package WorkshopExercise6;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -30,39 +30,34 @@ public class Gui extends Application {
 
     // ------------------------------------------------------------------------
 
-    //        private void drawShapes(GraphicsContext gc) {
-//        int x = 100;
-//        int y = 100;
-//        int r = 20;
-//
-//
-//        while (r <= 100) {
-//            gc.strokeOval(x-r, y-r, r*2, r*2);
-//            r = r + 20;
-//        }
-//    }
-//private void drawShapes(GraphicsContext gc) {
-//    int x = 20;
-//    int y = 100;
-//    int r = 10;
-//
-//    while (r <= 80) {
-//        gc.strokeOval(x-r, y-r, r*2, r*2);
-//        r = r + 10;
-//        x = x + 10;
-//    }
     private void drawShapes(GraphicsContext gc) {
-        int x = 100;
-        int y = 100;
-        int r1 = 20;
-        int r2 = 40;
-        while (r1 <= 90) {
-            gc.strokeOval(x - r1, y - r2, r1 * 2, r2 * 2);
-            r1 = r1 + 10;
+        int x1 = 10;
+        int x2 = 156;
+        int x3 = 150;
+        int y = 180;
 
+        gc.strokeLine(x1, y, x2, y);
+        gc.strokeLine(x2, y, x3, y - 5);
+        gc.strokeLine(x2, y, x3, y + 5);
+
+        int y2 = y - 3;
+        int y3 = y + 3;
+        int x4 = 22;
+        int i = 0;
+        String tal = "" + i;
+
+        for (i = 0; i <= 10; i++) {
+            if (i % 5 == 0) {
+                gc.strokeLine(x4, y2 - 3, x4, y3 + 3);
+                tal = "" + i;
+                gc.fillText(tal, x4 - 3, y3 + 12);
+                x4 = x4 + 12;
+            } else {
+                gc.strokeLine(x4, y2, x4, y3);
+                x4 = x4 + 12;
+            }
 
         }
+
     }
 }
-
-//}

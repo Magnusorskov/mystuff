@@ -24,7 +24,7 @@ public class provisionOgSalg {
         } else {
             provisionsTal = ((40000 * 0.06) + (60000 * 0.08) + (salg - 100000) * 0.1);
         }
-        return provisionsTal ;
+        return provisionsTal;
     }
 }
 

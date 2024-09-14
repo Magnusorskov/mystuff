@@ -27,13 +27,11 @@ public class Opgave1A {
         while (number != 0) {
             if (number > max) {
                 max = number;
-            }
-            if (number < 100 && number < min) {
+            }if (number < 100 && number < min) {
                 min = number;
-            }
-            if (number % 2 == 0) {
+            }if (number % 2 == 0) {
                 even++;
-            } else uneven++;
+            }else uneven++;
             System.out.println("\nInput a number. End with 0");
             number = scan.nextInt();
         }
