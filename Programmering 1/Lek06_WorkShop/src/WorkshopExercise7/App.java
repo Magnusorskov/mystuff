@@ -1,7 +1,6 @@
-package WorkshopExercise6;
+package WorkshopExercise7;
 
 import javafx.application.Application;
-
 
 public class App {
 
