@@ -43,13 +43,12 @@ public class Gui extends Application {
         int y2 = y - 3;
         int y3 = y + 3;
         int x4 = 22;
-        int i = 0;
-        String tal = "" + i;
 
-        for (i = 0; i <= 10; i++) {
+
+        for (int i = 0; i <= 10; i++) {
             if (i % 5 == 0) {
                 gc.strokeLine(x4, y2 - 3, x4, y3 + 3);
-                tal = "" + i;
+                String tal = "" + i;
                 gc.fillText(tal, x4 - 3, y3 + 12);
                 x4 = x4 + 12;
             } else {

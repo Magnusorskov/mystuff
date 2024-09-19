@@ -38,11 +38,9 @@ public class Gui extends Application {
         double y2 = x / 2;
 
         while (x > 5) {
-            gc.strokeLine(x, x / 5 * 1.25 , x, x * 1.25);
+            gc.strokeLine(x, x / 5, x, x / 2);
             x = x * 0.75;
-            System.out.println(x);
-            System.out.println(y1);
-            System.out.println(y2);
+
 
 
         }
