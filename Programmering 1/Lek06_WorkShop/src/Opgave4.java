@@ -1,6 +1,6 @@
 public class Opgave4 {
     public static void main(String[] args) {
-        starPictureC(10);
+        starPictureb(10);
     }
 
     public static void starPicture(int MAX_ROWS) {
@@ -27,6 +27,7 @@ public class Opgave4 {
     }
 
     // opgave b
+
     public static void starPictureb(int n) {
         int stars = 1;
         int spaces = n - stars;

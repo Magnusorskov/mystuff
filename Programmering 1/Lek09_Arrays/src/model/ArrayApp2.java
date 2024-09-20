@@ -1,7 +1,6 @@
 package model;
 
 import java.util.Arrays;
-import java.util.Locale;
 
 public class ArrayApp2 {
 
@@ -198,10 +197,10 @@ public class ArrayApp2 {
 
     public static String[] forEachCapitalizedLettersArray(String[] array) {
         String [] capitalized = new String[array.length];
-        int count = 0;
+        int index = 0;
         for (String word : array) {
-        capitalized[count] = array[count].toUpperCase();
-        count++;
+        capitalized[index] = array[index].toUpperCase();
+        index++;
         }
         return capitalized;
     }

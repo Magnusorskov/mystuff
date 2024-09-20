@@ -1,4 +1,4 @@
-package model;
+package Lek09_Arrays.src.model;
 
 import java.util.Arrays;
 

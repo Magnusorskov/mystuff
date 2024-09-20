@@ -1,4 +1,4 @@
-package modelarray;
+package Lek08_Arrays.src.modelarray;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

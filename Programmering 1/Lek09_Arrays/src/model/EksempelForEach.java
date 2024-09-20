@@ -1,4 +1,4 @@
-package model;
+package Lek09_Arrays.src.model;
 
 public class EksempelForEach {
     public static void main(String[] args) {
