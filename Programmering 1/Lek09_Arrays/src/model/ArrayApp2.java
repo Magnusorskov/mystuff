@@ -93,7 +93,7 @@ public class ArrayApp2 {
     // Opgave 1.5
     public static int secondSmallest(int[] array) {
         int smallestNumber = array[0];
-        int secondSmallestNumber = 9999999;
+        int secondSmallestNumber = Integer.MAX_VALUE;
         for (int i = 1; i < array.length; i++) {
             if (array[i] < smallestNumber) {
                 secondSmallestNumber = smallestNumber;
@@ -155,7 +155,7 @@ public class ArrayApp2 {
         }
         return stringAmount;
     }
-
+    // Opgave 2.2
     public static int amountOfStringsWithNLength(String[] array, int n) {
         int stringAmount = 0;
         for (int i = 0; i < array.length; i++) {
@@ -166,7 +166,7 @@ public class ArrayApp2 {
         return stringAmount;
 
     }
-
+    // Opgave 2.3
     public static String[] capitalizedLetters(String[] array) {
         String[] capitalizedArray = new String[array.length];
         for (int i = 0; i < array.length; i++) {
@@ -174,7 +174,7 @@ public class ArrayApp2 {
         }
         return capitalizedArray;
     }
-
+    // Opgave 3.1
     public static int forEachAmountOfStringsWith4(String[] array) {
         int amountOfStrings = 0;
         for (String word : array) {
@@ -184,7 +184,7 @@ public class ArrayApp2 {
         }
         return amountOfStrings;
     }
-
+    // Opgave 3.2
     public static int forEachAmountOfStringsWithN(String[] array, int n) {
         int amountOfStrings = 0;
         for (String word : array) {
@@ -194,13 +194,13 @@ public class ArrayApp2 {
         }
         return amountOfStrings;
     }
-
+    // Opgave 3.3
     public static String[] forEachCapitalizedLettersArray(String[] array) {
-        String [] capitalized = new String[array.length];
+        String[] capitalized = new String[array.length];
         int index = 0;
         for (String word : array) {
-        capitalized[index] = array[index].toUpperCase();
-        index++;
+            capitalized[index] = array[index].toUpperCase();
+            index++;
         }
         return capitalized;
     }

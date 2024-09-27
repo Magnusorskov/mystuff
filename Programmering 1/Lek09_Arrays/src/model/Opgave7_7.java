@@ -1,5 +1,5 @@
-package Lek09_Arrays.src.model;
-
+package model;
+//(Count single digits)
 public class Opgave7_7 {
     public static void main(String[] args) {
         int[] numberCount = new int[10];
@@ -15,8 +15,8 @@ public class Opgave7_7 {
             sumOfNumbers = sumOfNumbers + numberCount[j];
             System.out.println(j + " occurs " + numberCount[j] + " times");
         }
-        int average = sumOfNumbers / numberCount.length;
+        double average = sumOfNumbers / numberCount.length;
         double averagePercent = 200 / average;
-        System.out.println("The average occurrence of a number is " + average + " and the percentage is " + averagePercent);
+        System.out.println("The average occurrence of a number is " + average + " and the percentage is " + averagePercent + "%");
     }
 }

@@ -1,7 +1,7 @@
-package Lek09_Arrays.src.model;
+package model;
 
 import java.util.Scanner;
-
+//  (Find the index of the largest element)
 public class Opgave7_10 {
     public static void main(String[] args) {
         double[] tenNumbersArray = new double[10];
@@ -13,7 +13,8 @@ public class Opgave7_10 {
             tenNumbersArray[i] = userNumber;
         }
         int largestIndex = indexOfLargestElement(tenNumbersArray);
-        System.out.println("The largest number/element was " + tenNumbersArray[largestIndex] + " and that number/element has the index number of " + largestIndex);
+        System.out.println("The largest number/element was " + tenNumbersArray[largestIndex] +
+                " and that number/element has the index number of " + largestIndex);
     }
 
     public static int indexOfLargestElement(double[] array) {
