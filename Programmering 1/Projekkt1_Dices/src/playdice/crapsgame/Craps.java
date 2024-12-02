@@ -1,4 +1,4 @@
-package playdice.crapsgame;
+package src.playdice.crapsgame;
 
 import java.util.Scanner;
 
