@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BudgetTracker/BudgetTracker.iml" filepath="$PROJECT_DIR$/BudgetTracker/BudgetTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek01_Javaintroduction/Lek01_Javaintroduction.iml" filepath="$PROJECT_DIR$/Lek01_Javaintroduction/Lek01_Javaintroduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek02_SimpleProgrammer/Lek02_SimpleProgrammer.iml" filepath="$PROJECT_DIR$/Lek02_SimpleProgrammer/Lek02_SimpleProgrammer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek03_SimpleProgrammer/Lek03_SimpleProgrammer.iml" filepath="$PROJECT_DIR$/Lek03_SimpleProgrammer/Lek03_SimpleProgrammer.iml" />
@@ -23,6 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/Lek24_SammenhaengMellemKlasser/Lek24_SammenhaengMellemKlasser.iml" filepath="$PROJECT_DIR$/Lek24_SammenhaengMellemKlasser/Lek24_SammenhaengMellemKlasser.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek25_Arkitektur/Lek25_Arkitektur.iml" filepath="$PROJECT_DIR$/Lek25_Arkitektur/Lek25_Arkitektur.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek28_soegning/Lek28_soegning.iml" filepath="$PROJECT_DIR$/Lek28_soegning/Lek28_soegning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek29_sortering/Lek29_sortering.iml" filepath="$PROJECT_DIR$/Lek29_sortering/Lek29_sortering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek30_Sortering_Og_Exceptions/Lek30_Sortering_Og_Exceptions.iml" filepath="$PROJECT_DIR$/Lek30_Sortering_Og_Exceptions/Lek30_Sortering_Og_Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmering 1.iml" filepath="$PROJECT_DIR$/Programmering 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projekkt1_Dices/Projekkt1_Dices.iml" filepath="$PROJECT_DIR$/Projekkt1_Dices/Projekkt1_Dices.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projekt_2/Projekt_2.iml" filepath="$PROJECT_DIR$/Projekt_2/Projekt_2.iml" />
