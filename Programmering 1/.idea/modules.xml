@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdventOfCode/AdventOfCode.iml" filepath="$PROJECT_DIR$/AdventOfCode/AdventOfCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/BudgetTracker/BudgetTracker.iml" filepath="$PROJECT_DIR$/BudgetTracker/BudgetTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek01_Javaintroduction/Lek01_Javaintroduction.iml" filepath="$PROJECT_DIR$/Lek01_Javaintroduction/Lek01_Javaintroduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lek02_SimpleProgrammer/Lek02_SimpleProgrammer.iml" filepath="$PROJECT_DIR$/Lek02_SimpleProgrammer/Lek02_SimpleProgrammer.iml" />
@@ -28,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lek30_Sortering_Og_Exceptions/Lek30_Sortering_Og_Exceptions.iml" filepath="$PROJECT_DIR$/Lek30_Sortering_Og_Exceptions/Lek30_Sortering_Og_Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmering 1.iml" filepath="$PROJECT_DIR$/Programmering 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projekkt1_Dices/Projekkt1_Dices.iml" filepath="$PROJECT_DIR$/Projekkt1_Dices/Projekkt1_Dices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt5_KAS/Projekt5_KAS.iml" filepath="$PROJECT_DIR$/Projekt5_KAS/Projekt5_KAS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projekt_2/Projekt_2.iml" filepath="$PROJECT_DIR$/Projekt_2/Projekt_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projekt_3_Yatzy/Projekt_3_Yatzy.iml" filepath="$PROJECT_DIR$/Projekt_3_Yatzy/Projekt_3_Yatzy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projekt_4_Arkitektur/Projekt_4_Arkitektur.iml" filepath="$PROJECT_DIR$/Projekt_4_Arkitektur/Projekt_4_Arkitektur.iml" />

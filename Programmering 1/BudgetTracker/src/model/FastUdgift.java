@@ -4,11 +4,11 @@ import java.time.LocalDate;
 
 public class FastUdgift extends Transaktion{
     private LocalDate forfaldsDato;
-    private int frekvens;
+    private int betalingsFrekvens;
 
-    public FastUdgift(String beskrivelse, double beløb, LocalDate dato, int frekvens, LocalDate forfaldsDato) {
+    public FastUdgift(String beskrivelse, double beløb, LocalDate dato, int betalingsFrekvens, LocalDate forfaldsDato) {
         super(beskrivelse, beløb, dato);
-        this.frekvens = frekvens;
+        this.betalingsFrekvens = betalingsFrekvens;
         this.forfaldsDato = forfaldsDato;
     }
 
@@ -20,12 +20,13 @@ public class FastUdgift extends Transaktion{
         this.forfaldsDato = forfaldsDato;
     }
 
-    public int getFrekvens() {
-        return frekvens;
+    public int getBetalingsFrekvens() {
+        return betalingsFrekvens;
     }
 
-    public void setFrekvens(int frekvens) {
-        this.frekvens = frekvens;
+    public void setBetalingsFrekvens(int betalingsFrekvens) {
+        this.betalingsFrekvens = betalingsFrekvens;
     }
+
 }
 
