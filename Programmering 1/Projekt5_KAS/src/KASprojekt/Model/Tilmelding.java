@@ -15,7 +15,7 @@ public class Tilmelding {
     private Konference konference;
     private Hotel hotel;
 
-    Tilmelding(LocalDate ankomstDato, LocalDate afrejseDato, boolean foredragsStatus, String ledsagerNavn, Konference konference, Deltager deltager, Hotel hotel,ArrayList<Udflugt> udflugter, ArrayList<Service> services) {
+    Tilmelding(LocalDate ankomstDato, LocalDate afrejseDato, boolean foredragsStatus, String ledsagerNavn, Konference konference, Deltager deltager, Hotel hotel, ArrayList<Udflugt> udflugter, ArrayList<Service> services) {
         this.ankomstDato = ankomstDato;
         this.afrejseDato = afrejseDato;
         this.foredragsStatus = foredragsStatus;
@@ -76,6 +76,7 @@ public class Tilmelding {
         return price;
     }
 
+
     public int getAntalDage() {
         return afrejseDato.compareTo(ankomstDato);
     }
@@ -84,18 +85,20 @@ public class Tilmelding {
         this.deltager = deltager;
         deltager.addTilmelding(this);
     }
-    public void addService (Service service) {
+
+    public void addService(Service service) {
         if (!services.contains(service)) {
             services.add(service);
         }
     }
 
-    public void addUdluft (Udflugt udflugt) {
+    public void addUdluft(Udflugt udflugt) {
         if (!udflugter.contains(udflugt)) {
             udflugter.add(udflugt);
             udflugt.addTilmelding(this);
         }
     }
+
     private void initService(ArrayList<Service> services) {
         this.services = new ArrayList<>();
         for (Service service : services) {
@@ -122,4 +125,22 @@ public class Tilmelding {
     public LocalDate getAfrejseDato() {
         return afrejseDato;
     }
+
+    public Konference getKonference() {
+        return konference;
+    }
+
+    public Hotel getHotel() {
+        return hotel;
+    }
+
+    public ArrayList<Udflugt> getUdflugter() {
+        return udflugter;
+    }
+
+    public boolean isForedragsStatus() {
+        return foredragsStatus;
+    }
+
+
 }

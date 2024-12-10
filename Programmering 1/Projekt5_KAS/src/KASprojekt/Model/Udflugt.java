@@ -17,7 +17,7 @@ public class Udflugt {
         tilmeldinger = new ArrayList<>();
     }
 
-    public void addTilmelding(Tilmelding tilmelding){
+    public void addTilmelding(Tilmelding tilmelding) {
         if (!tilmeldinger.contains(tilmelding)) {
             tilmeldinger.add(tilmelding);
         }
@@ -49,5 +49,10 @@ public class Udflugt {
 
     public void setDato(LocalDate dato) {
         this.dato = dato;
+    }
+
+    @Override
+    public String toString() {
+        return navn + "(" + pris + ",- " + dato + ")";
     }
 }

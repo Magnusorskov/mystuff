@@ -104,4 +104,9 @@ public class Konference {
             hoteller.add(hotel);
         }
     }
+
+    @Override
+    public String toString() {
+        return navn + " " + start + " / " + slut;
+    }
 }

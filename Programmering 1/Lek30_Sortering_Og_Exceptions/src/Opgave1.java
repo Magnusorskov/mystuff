@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Opgave1    {
+public class
+Opgave1    {
 
     public static void main(String[] args) {
         ArrayList<Customer> customers = new ArrayList<>() {{

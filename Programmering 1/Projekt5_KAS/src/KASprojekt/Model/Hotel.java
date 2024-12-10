@@ -60,6 +60,6 @@ public class Hotel {
 
     @Override
     public String toString() {
-        return navn + ": " + "Enkelt/Dobbelt pris " + prisEnkelt + "/" + prisDobbelt;
+        return navn + ": " + "Enkelt/Dobbelt pris " + (int ) prisEnkelt + " / " + (int ) prisDobbelt + ",-";
     }
 }

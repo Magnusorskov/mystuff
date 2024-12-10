@@ -44,30 +44,6 @@ public class Deltager {
         return new ArrayList<>(tilmeldinger);
     }
 
-    public void setNavn(String navn) {
-        this.navn = navn;
-    }
-
-    public void setAdresse(String adresse) {
-        this.adresse = adresse;
-    }
-
-    public void setFirmaNr(String firmaNr) {
-        this.firmaNr = firmaNr;
-    }
-
-    public void setLandBy(String landBy) {
-        this.landBy = landBy;
-    }
-
-    public void setFirmaNavn(String firmaNavn) {
-        this.firmaNavn = firmaNavn;
-    }
-
-    public void setTlfNr(String tlfNr) {
-        this.tlfNr = tlfNr;
-    }
-
     public void addTilmelding(Tilmelding tilmelding) {
         if (!tilmeldinger.contains(tilmelding)) {
             tilmeldinger.add(tilmelding);
@@ -76,6 +52,16 @@ public class Deltager {
     }
 
     public String toString() {
-        return "Deltager: " + navn + " Tlfnr: " + tlfNr;
+        return navn + "  Tlfnr: " + tlfNr;
+    }
+
+    public double sumAfTilmeldinger(Deltager deltager) {
+        ArrayList<Tilmelding> tilmeldinger = deltager.getTilmeldinger();
+        double result = 0;
+
+        for (Tilmelding tilmelding : tilmeldinger) {
+            result += tilmelding.getPrice();
+        }
+        return result;
     }
 }
