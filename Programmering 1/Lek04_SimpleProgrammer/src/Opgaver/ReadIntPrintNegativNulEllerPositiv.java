@@ -1,4 +1,5 @@
 package Opgaver;
+
 import java.util.Scanner;
 
 public class ReadIntPrintNegativNulEllerPositiv {
@@ -11,12 +12,10 @@ public class ReadIntPrintNegativNulEllerPositiv {
 
         String result;
         if (answer < 0) {
-            result ="The number is negative";
-        }
-        else if (answer == 0) {
-            result ="The number is zero";
-        }
-        else {
+            result = "The number is negative";
+        } else if (answer == 0) {
+            result = "The number is zero";
+        } else {
             result = "The number is positive";
         }
         System.out.print(result);

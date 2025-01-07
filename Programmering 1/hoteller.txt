@@ -1,0 +1,21 @@
+Den Hvide Svane: Enkelt/Dobbelt pris 1050 / 1250,-
+Services < Wifi(50.0) >
+Niels Petersen  Tlfnr: 93857229 - Ledsager: Magnus Ørskov - (Ankomst: 2024-12-18 Afrejse: 2024-12-20)
+
+Peter Sommer  Tlfnr: 39284993 - Ledsager: Mie Sommer - Wifi(50.0) - (Ankomst: 2024-12-18 Afrejse: 2024-12-20)
+
+Lone Jensen  Tlfnr: 32423444 - Ledsager: Jan Madsen - Wifi(50.0) - (Ankomst: 2024-12-18 Afrejse: 2024-12-20)
+
+------------------
+Hotel Central: Enkelt/Dobbelt pris 900 / 1100,-
+Services < Morgenmad(100.0) >
+Anna Nielsen  Tlfnr: 11111111 - Ledsager: Jens Jensen - Morgenmad(100.0) - (Ankomst: 2025-01-08 Afrejse: 2025-01-10)
+
+Carla Hansen  Tlfnr: 33333333 - Ledsager: Peter Petersen - (Ankomst: 2025-01-09 Afrejse: 2025-01-10)
+
+------------------
+Grand Hotel: Enkelt/Dobbelt pris 1200 / 1400,-
+Services < Spa(200.0)  Massage(300.0) >
+David Olsen  Tlfnr: 44444444 - Ledsager: Pia Petersen - Spa(200.0) - Massage(300.0) - (Ankomst: 2024-11-13 Afrejse: 2024-11-15)
+
+------------------
